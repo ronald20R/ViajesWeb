@@ -5,15 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
     <link rel="stylesheet" href="assets/css/hero.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap"
       rel="stylesheet"
     />
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   </head>
   <body>
+    <!-- header -->
     <header class="header filter-8">
         <div class="contenedor contenido-header">
           <div><img class="header__logo"   src="img/Logo_mapiforless.png" alt="" /></div>
@@ -28,13 +27,14 @@
           </nav>
         </div>
       </header>
+      <!-- slider / hero -->
     <section id="home-slider">
       <div class="swiper mySwiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
           <div class="position-relative">
             <div class="hero">
-                <img  class="hero__image" src="/ViajesWeb/img/peru-tour.png" alt="">
+                <img  class="hero__image" src="img/peru-tour.png" alt="">
                 <div class="hero__content container">
                     <h2 class="hero__title">Descubre el Perú de tus Sueños</h2>
                     <p class="hero__text">Aventuras inolvidables desde la costa hasta la sierra</p>
@@ -50,7 +50,7 @@
           <div class="swiper-slide">
           <div class="position-relative">
             <div class="hero">
-                <img  class="hero__image" src="/ViajesWeb/img/tours-in-selva.jpg" alt="">
+                <img  class="hero__image" src="img/tours-in-selva.jpg" alt="">
                 <div class="hero__content container">
                     <h2 class="hero__title">Descubre el Perú de tus Sueños</h2>
                     <p class="hero__text">Aventuras inolvidables desde la costa hasta la sierra</p>
@@ -66,7 +66,7 @@
           <div class="swiper-slide">
           <div class="position-relative">
             <div class="hero">
-                <img  class="hero__image" src="/ViajesWeb/img/peru-tour.png" alt="">
+                <img  class="hero__image" src="img/peru-tour.png" alt="">
                 <div class="hero__content container">
                     <h2 class="hero__title">Descubre el Perú de tus Sueños</h2>
                     <p class="hero__text">Aventuras inolvidables desde la costa hasta la sierra</p>
@@ -92,9 +92,67 @@
     </section>
 
     <main class="main contenedor">
-        <section class="services centrar--texto">
+        <section class="services text--center py-4">
           <h2 class="services__title">Ofrecemos los mejores servicios</h2>
           <p class="services__text"></p>
+
+              <div class="cuatro--columnas">
+                          <div class="card shadow">
+                          <div class="card__body">
+                            <div class="card__icon">
+                              <span class="d-block  fs-1">
+                                <i class="bi bi-map"></i>
+                              </span>
+                              <span class="fw-bold text-dark fs-2">Tours Personalizados </span>
+                              <p>Explora Perú a tu ritmo con nuestros itinerarios hechos a medida. Vive una experiencia única adaptada a tus intereses. </p>
+                            </div>
+
+                          </div>
+
+                        </div>
+                          <div class="card shadow">
+                          <div class="card__body">
+                            <div class="card__icon">
+                              <span class="d-block  fs-1">
+                                <i class="bi bi-person-fill-check"></i>
+                              </span>
+                              <span class="fw-bold text-dark fs-2">Guías Turísticos
+                                Expertos</span>
+                              <p>Descubre la riqueza cultural de Perú con nuestros guías locales expertos. Obtén conocimientos profundos y auténticos en cada recorrido.</p>
+                            </div>
+
+                          </div>
+
+                        </div>
+                          <div class="card shadow">
+                          <div class="card__body">
+                            <div class="card__icon">
+                              <span class="d-block  fs-1">
+                                <i class="bi bi-shield-check"></i>
+                              </span>
+                              <span class="fw-bold text-dark fs-2">Alojamientos Confortables </span>
+                              <p>Disfruta de una estancia inolvidable en los mejores alojamientos de Perú. Comodidad y autenticidad en cada destino.</p>
+                            </div>
+
+                          </div>
+
+                        </div>
+                          <div class="card shadow">
+                          <div class="card__body">
+                            <div class="card__icon">
+                              <span class="d-block  fs-1">
+                                <i class="bi bi-0-square"></i>
+                              </span>
+                              <span class="fw-bold text-dark fs-2"> Asistencia de Viaje 24/7</span>
+                              <p>Viaja  sin preocupaciones con nuestro soporte continuo. Estamos disponibles en todo momento para ayudarte.</p>
+                            </div>
+
+                          </div>
+
+                        </div>
+
+              </div>
+
         </section>
 
         <section class="about">
