@@ -14852,9 +14852,10 @@ img {
 
 .cuatro--columnas {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(4, 1fr));
   -moz-column-gap: 2rem;
        column-gap: 2rem;
+  grid-template-rows: auto;
 }
 
 .text--center {
