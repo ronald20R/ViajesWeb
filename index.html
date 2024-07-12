@@ -1,373 +1,521 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
-    <link rel="stylesheet" href="assets/css/hero.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-  </head>
-  <body>
-    <!-- header -->
-    <header class="header filter-8">
-        <div class="contenedor contenido-header">
-          <div><img class="header__logo"   src="img/Logo_mapiforless.png" alt="" /></div>
-  
-          <nav class="navegacion-principal">
-            <a href="#lineup" class="">Home</a>
-            <a href="#galeria" class="">Destinos</a>
-            <a href="#boletos">Paquetes</a>
-  
-            <button class="button button--primary">Login</button>
-            <button class="button button--tree">Register</button>
-          </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home</title>
+  <link rel="stylesheet" href="assets/css/app.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+
+  <!-- header -->
+  <header class="header  shadow filter-8">
+    <div class="contenedor contenido-header">
+      <a href="index.html">
+        <div><img class="header__logo" src="img/Logo_mapiforless.png" alt="" /></div>
+      </a>
+      <nav class="navegacion-principal">
+
+        <a href="index.html" target="_blank" rel="">Home</a>
+        <a href="nosotros.html" target="_blank" >Nosotros</a>
+        <a href="destinos.html" target="_blank" rel="">Destinos</a>
+        <a href="paquetes.html">Paquetes</a>
+
+        <button class="button button--primary">Login</button>
+        <button class="button button--tree">Register</button>
+      </nav>
+    </div>
+  </header>
+  <!-- slider / hero -->
+  <section id="home-slider">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="position-relative">
+            <div class="hero">
+              <img class="hero__image" src="img/p-machu-picchu-peru-7-top-desktop.webp" alt="">
+              <div class="hero__content container">
+                <h2 class="hero__title">      Machu Picchu Forless</h2>
+          
+
+                <p class="hero__text">En los Andes Peruanos te espera una cultura viva, llena de misterios y riquezas; comparte con nosotros esta gran aventura para vivir una experiencia única.</p>
+
+                <div class="hero__buttons">
+                  <a href="#" class="button   button--primary">Visitar</a>
+                  <a href="https://www.youtube.com/watch?v=9PaqRg9133U" class="button glightbox  button--secondary">Ver
+                    Video</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </header>
-      <!-- slider / hero -->
-    <section id="home-slider">
-      <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
+        <div class="swiper-slide">
           <div class="position-relative">
             <div class="hero">
-                <img  class="hero__image" src="img/peru-tour.png" alt="">
-                <div class="hero__content container">
-                    <h2 class="hero__title">Descubre el Perú de tus Sueños</h2>
-                    <p class="hero__text">Aventuras inolvidables desde la costa hasta la sierra</p>
-        
-                    <div class="hero__buttons">
-                        <a href="#" class="button   button--primary">Visitar</a>
-                        <a href="https://www.youtube.com/watch?v=9PaqRg9133U" class="button glightbox  button--secondary">Ver Video</a>
-                    </div>
+              <img class="hero__image" src="img/p-arequipa-machu-picchu-amazon.webp" alt="">
+              <div class="hero__content container">
+                <h2 class="hero__title">Cruzar los Andes hacia el Amazonas
+                </h2>
+                <p class="hero__text">¡Sumérgete en la maravillosa biodiversidad del Parque Nacional del Manu en Perú!</p>
+
+                <div class="hero__buttons">
+                  <a href="" class="button   button--primary">Visitar</a>
+                  <a href="https://www.youtube.com/watch?v=9UjK5jC8T5U" class="button glightbox  button--secondary">Ver Video</a>
                 </div>
+              </div>
             </div>
           </div>
-          </div>
-          <div class="swiper-slide">
+        </div>
+        <div class="swiper-slide">
           <div class="position-relative">
             <div class="hero">
-                <img  class="hero__image" src="img/tours-in-selva.jpg" alt="">
-                <div class="hero__content container">
-                    <h2 class="hero__title">Descubre el Perú de tus Sueños</h2>
-                    <p class="hero__text">Aventuras inolvidables desde la costa hasta la sierra</p>
-        
-                    <div class="hero__buttons">
-                        <a href="" class="button   button--primary">Visitar</a>
-                        <a href="" class="button glightbox  button--secondary">Ver Video</a>
-                    </div>
+              <img class="hero__image" src="img/d-nazca-top-desktop.webp" alt="">
+              <div class="hero__content container">
+                <h2 class="hero__title">Descubre el Perú de tus Sueños</h2>
+                <p class="hero__text">más que una agencia de viajes; somos tu puerta de entrada a experiencias inolvidables y aventuras únicas alrededor del mundo</p>
+                <div class="hero__buttons">
+                  <a href="" class="button   button--primary">Visitar</a>
+                  <a href="https://www.youtube.com/watch?v=H5siommZ5tE" class="button glightbox  button--secondary">Ver Video</a>
                 </div>
+              </div>
             </div>
           </div>
-          </div>
-          <div class="swiper-slide">
-          <div class="position-relative">
-            <div class="hero">
-                <img  class="hero__image" src="img/peru-tour.png" alt="">
-                <div class="hero__content container">
-                    <h2 class="hero__title">Descubre el Perú de tus Sueños</h2>
-                    <p class="hero__text">Aventuras inolvidables desde la costa hasta la sierra</p>
-                    <div class="hero__buttons">
-                        <a href="" class="button   button--primary">Visitar</a>
-                        <a href="" class="button glightbox  button--secondary">Ver Video</a>
-                    </div>
-                </div>
+        </div>
+
+        <div class="autoplay-progress">
+          <svg viewBox="0 0 48 48" width="50">
+            <circle cx="24" cy="24" r="20"></circle>
+          </svg>
+          <span></span>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <main class="main ">
+    <!-- services -->
+    <section class="services text-center py-4 contenedor">
+      <h2 class="services__title">Ofrecemos los mejores servicios</h2>
+      <p class="services__text"></p>
+
+      <div class="tours__grid cuatro--columnas">
+        <div class="card shadow">
+          <div class="card__body">
+            <div class="card__icon">
+              <span class="d-block  fs-1">
+                <i class="bi bi-map-fill"></i>
+              </span>
+              <span class="fw-bold text-dark fs-2">Tours Personalizados </span>
+              <p>Explora Perú a tu ritmo con nuestros itinerarios hechos a medida. Vive una experiencia única adaptada a
+                tus intereses. </p>
             </div>
-          </div>
+
           </div>
 
-          <div class="autoplay-progress">
-            <svg viewBox="0 0 48 48" width="50">
-              <circle cx="24" cy="24" r="20"></circle>
-            </svg>
-            <span></span>
-          </div>
-          <div class="swiper-pagination"></div>
         </div>
+        <div class="card shadow">
+          <div class="card__body">
+            <div class="card__icon">
+              <span class="d-block  fs-1">
+              
+                <i class="bi bi-person-walking"></i>
+              
+              </span>
+              <span class="fw-bold text-dark fs-2">Guías Turísticos
+                Expertos</span>
+              <p>Descubre la riqueza cultural de Perú con nuestros guías locales expertos. Obtén conocimientos profundos
+                y auténticos en cada recorrido.</p>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="card shadow">
+          <div class="card__body">
+            <div class="card__icon">
+              <span class="d-block  fs-1">
+                <i class="bi bi-h-square-fill"></i>
+              </span>
+              <span class="fw-bold text-dark fs-2">Alojamientos Confortables </span>
+              <p>Disfruta de una estancia inolvidable en los mejores alojamientos de Perú. Comodidad y autenticidad en
+                cada destino.</p>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="card shadow">
+          <div class="card__body">
+            <div class="card__icon">
+              <span class="d-block  fs-1">
+                <i class="bi bi-telephone-inbound-fill"></i>
+                
+              </span>
+              <span class="fw-bold text-dark fs-2"> Asistencia de Viaje 24/7</span>
+              <p>Viaja sin preocupaciones con nuestro soporte continuo. Estamos disponibles en todo momento para
+                ayudarte.</p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+<!-- about us -->
+    <section class="about contenedor">
+      <div class="about__content">
+        <h2 class="about__title">Acerca de nosotros</h2>
+        <p class="about__text">
+          Somos una agencia de turismo dedicada a crear experiencias únicas e
+          inolvidables para nuestros clientes. Con años de experiencia en el
+          sector, ofrecemos los mejores destinos y servicios personalizados
+          para hacer de cada viaje una aventura extraordinaria.
+        </p>
+      </div>
+      <div class="about__image">
+        <img src="img/about-img.webp" alt="Nuestro equipo" class="about__img" />
+      </div>
+    </section>
+<!-- tours -->
+    <section class="tours contenedor">
+      <h2 class="tours__title">Paquetes de Tours</h2>
+      <div class="tours__grid">
+        <div class="inca-trail-card">
+          <img class="inca-trail-card__image" src="img/incatrail.jpg" alt="Inca Trail landscape" />
+          <div class="inca-trail-card__info">
+            <div class="inca-trail-card__meta">
+              <span class="inca-trail-card__duration">
+                <i class="inca-trail-card__icon inca-trail-card__icon--calendar"></i>
+                9 Días
+              </span>
+              <span class="inca-trail-card__group-size">
+                <i class="inca-trail-card__icon inca-trail-card__icon--people"></i>
+                25 Personas Por Grupo
+              </span>
+            </div>
+            <h2 class="inca-trail-card__title">Classic Inca Trail</h2>
+            <div class="inca-trail-card__location">
+              <i class="inca-trail-card__icon inca-trail-card__icon--location"></i>
+              Cusco
+            </div>
+            <div class="inca-trail-card__pricing">
+              <span class="inca-trail-card__price">$2069</span>
+              <span class="inca-trail-card__original-price">2,200$</span>
+            </div>
+            <p class="inca-trail-card__description">
+              Descubre la vibrante cultura y rica historia de Cusco y el Valle Sagrado antes de aventurarte en el icónico Camino Inca hacia Machu Picchu.
+            </p>
+           
+            <a href="tour.html" class="inca-trail-card__cta"> Explora Ahora</a>
+          </div>
+        </div>
+        <div class="inca-trail-card">
+          <img class="inca-trail-card__image" src="img/tours-in-selva.jpg" alt="Inca Trail landscape" />
+          <div class="inca-trail-card__info">
+            <div class="inca-trail-card__meta">
+              <span class="inca-trail-card__duration">
+                <i class="inca-trail-card__icon inca-trail-card__icon--calendar"></i>
+                5 Días
+              </span>
+              <span class="inca-trail-card__group-size">
+                <i class="inca-trail-card__icon inca-trail-card__icon--people"></i>
+                5 Personas Por Grupo
+              </span>
+            </div>
+            <h2 class="inca-trail-card__title">Aventura Amazónica</h2>
+            <div class="inca-trail-card__location">
+              <i class="inca-trail-card__icon inca-trail-card__icon--location"></i>
+              Madre de Dios
+            </div>
+            <div class="inca-trail-card__pricing">
+              <span class="inca-trail-card__price">$320</span>
+              <span class="inca-trail-card__original-price">400$</span>
+            </div>
+            <p class="inca-trail-card__description">
+              Explora la diversidad de la selva amazónica en una experiencia única de inmersión en la naturaleza.
+            </p>
+             <a href="tour.html" class="inca-trail-card__cta"> Explora Ahora</a>
+          </div>
+        </div>
+        <div class="inca-trail-card">
+          <img class="inca-trail-card__image" src="img/d-cusco-card.webp" alt="Inca Trail landscape" />
+          <div class="inca-trail-card__info">
+            <div class="inca-trail-card__meta">
+              <span class="inca-trail-card__duration">
+                <i class="inca-trail-card__icon inca-trail-card__icon--calendar"></i>
+                1 Día
+              </span>
+              <span class="inca-trail-card__group-size">
+                <i class="inca-trail-card__icon inca-trail-card__icon--people"></i>
+                5 Personas Por Grupo
+              </span>
+            </div>
+            <h2 class="inca-trail-card__title">city-tour</h2>
+            <div class="inca-trail-card__location">
+              <i class="inca-trail-card__icon inca-trail-card__icon--location"></i>
+              Cusco
+            </div>
+            <div class="inca-trail-card__pricing">
+              <span class="inca-trail-card__price">$50</span>
+              <span class="inca-trail-card__original-price">710$</span>
+            </div>
+            <p class="inca-trail-card__description">
+              Descubre la rica historia y cultura de la capital peruana en este fascinante tour por la ciudad.
+            </p>
+             <a href="tour.html" class="inca-trail-card__cta"> Explora Ahora</a>
+          </div>
         </div>
       </div>
     </section>
 
-    <main class="main contenedor">
-        <section class="services text--center py-4">
-          <h2 class="services__title">Ofrecemos los mejores servicios</h2>
-          <p class="services__text"></p>
+    <!-- why choose us Machu Pícchu Forless  -->
 
-              <div class="tours__grid cuatro--columnas">
-                          <div class="card shadow">
-                          <div class="card__body">
-                            <div class="card__icon">
-                              <span class="d-block  fs-1">
-                                <i class="bi bi-map"></i>
-                              </span>
-                              <span class="fw-bold text-dark fs-2">Tours Personalizados </span>
-                              <p>Explora Perú a tu ritmo con nuestros itinerarios hechos a medida. Vive una experiencia única adaptada a tus intereses. </p>
-                            </div>
+    <section class="bg-cover" style="background-image: url('img/rainbow-mountain.webp');">
+      <div class="bg-opacity-dark">
+        <div class="container-xxl py-5">
+          <div class="row gy-4 ">
+            <div class="col-md-4">
 
-                          </div>
-
-                        </div>
-                          <div class="card shadow">
-                          <div class="card__body">
-                            <div class="card__icon">
-                              <span class="d-block  fs-1">
-                                <i class="bi bi-person-fill-check"></i>
-                              </span>
-                              <span class="fw-bold text-dark fs-2">Guías Turísticos
-                                Expertos</span>
-                              <p>Descubre la riqueza cultural de Perú con nuestros guías locales expertos. Obtén conocimientos profundos y auténticos en cada recorrido.</p>
-                            </div>
-
-                          </div>
-
-                        </div>
-                          <div class="card shadow">
-                          <div class="card__body">
-                            <div class="card__icon">
-                              <span class="d-block  fs-1">
-                                <i class="bi bi-shield-check"></i>
-                              </span>
-                              <span class="fw-bold text-dark fs-2">Alojamientos Confortables </span>
-                              <p>Disfruta de una estancia inolvidable en los mejores alojamientos de Perú. Comodidad y autenticidad en cada destino.</p>
-                            </div>
-
-                          </div>
-
-                        </div>
-                          <div class="card shadow">
-                          <div class="card__body">
-                            <div class="card__icon">
-                              <span class="d-block  fs-1">
-                                <i class="bi bi-0-square"></i>
-                              </span>
-                              <span class="fw-bold text-dark fs-2"> Asistencia de Viaje 24/7</span>
-                              <p>Viaja  sin preocupaciones con nuestro soporte continuo. Estamos disponibles en todo momento para ayudarte.</p>
-                            </div>
-
-                          </div>
-
-                        </div>
-
-              </div>
-
-        </section>
-
-        <section class="about">
-          <div class="about__content">
-            <h2 class="about__title">Acerca de nosotros</h2>
-            <p class="about__text">
-              Somos una agencia de turismo dedicada a crear experiencias únicas e
-              inolvidables para nuestros clientes. Con años de experiencia en el
-              sector, ofrecemos los mejores destinos y servicios personalizados
-              para hacer de cada viaje una aventura extraordinaria.
-            </p>
-          </div>
-          <div class="about__image">
-            <img
-              src="img/about-img.webp"
-              alt="Nuestro equipo"
-              class="about__img"
-            />
-          </div>
-        </section>
-  
-        <section class="tours">
-          <h2 class="tours__title">Paquetes de Tours</h2>
-          <div class="tours__grid">
-            <div class="inca-trail-card">
-              <img
-                class="inca-trail-card__image"
-                src="img/home.png"
-                alt="Inca Trail landscape"
-              />
-              <div class="inca-trail-card__info">
-                <div class="inca-trail-card__meta">
-                  <span class="inca-trail-card__duration">
-                    <i
-                      class="inca-trail-card__icon inca-trail-card__icon--calendar"
-                    ></i>
-                    9 Días
-                  </span>
-                  <span class="inca-trail-card__group-size">
-                    <i
-                      class="inca-trail-card__icon inca-trail-card__icon--people"
-                    ></i>
-                    25 Personas Por Grupo
-                  </span>
-                </div>
-                <h2 class="inca-trail-card__title">Classic Inca Trail</h2>
-                <div class="inca-trail-card__location">
-                  <i
-                    class="inca-trail-card__icon inca-trail-card__icon--location"
-                  ></i>
-                  Cusco
-                </div>
-                <div class="inca-trail-card__pricing">
-                  <span class="inca-trail-card__price">$2069</span>
-                  <span class="inca-trail-card__original-price">2,200$</span>
-                </div>
-                <p class="inca-trail-card__description">
-                  Descubre la vibrante cultura y rica historia de Cusco y el Valle
-                  Sagrado antes de aventurarte en el icónico Camino Inca hacia
-                  Machu Picchu. Camina por pasos de montaña y bosques nubosos,
-                  observa las estrellas en el Valle Sagrado y explora ruinas incas
-                  ocultas. ¡Una experiencia inolvidable te espera!
-                </p>
-                <button class="inca-trail-card__cta">Explora Ahora</button>
-              </div>
             </div>
-            <div class="inca-trail-card">
-              <img
-                class="inca-trail-card__image"
-                src="img/home.png"
-                alt="Inca Trail landscape"
-              />
-              <div class="inca-trail-card__info">
-                <div class="inca-trail-card__meta">
-                  <span class="inca-trail-card__duration">
-                    <i
-                      class="inca-trail-card__icon inca-trail-card__icon--calendar"
-                    ></i>
-                    9 Días
-                  </span>
-                  <span class="inca-trail-card__group-size">
-                    <i
-                      class="inca-trail-card__icon inca-trail-card__icon--people"
-                    ></i>
-                    25 Personas Por Grupo
-                  </span>
+            <div class="col-md-8">
+                <div class="position-relative text-center ">
+                    <p class="text-white">Estamos enfocados en el medio ambiente.
+
+                      <br> Disfrutarás de actividades ambientales que forman parte de Machu Picchu For less</p>
+                    <h3 class="display-5 fw-bold text-white"> 
+                      Por Que Eligir
+Machu Picchu For Less      ?              </h3>
                 </div>
-                <h2 class="inca-trail-card__title">Classic Inca Trail</h2>
-                <div class="inca-trail-card__location">
-                  <i
-                    class="inca-trail-card__icon inca-trail-card__icon--location"
-                  ></i>
-                  Cusco
+                <div class="row gy-4 py-5">
+                    <div class="col-md-6">
+                        <div class="position-relative">
+                            <div class="d-flex">
+                                <div class="svg-primary">
+                                    <svg id="outline" width="60" viewBox="0 0 340 340" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M179.324,112.4a16.5,16.5,0,0,0-21.209,6.64A14.559,14.559,0,0,0,156.79,130.7a15.165,15.165,0,0,0,14.668,10.376,16.58,16.58,0,0,0,4.961-.764,16.233,16.233,0,0,0,9.318-7.428,14.5,14.5,0,0,0-6.413-20.486Zm-.538,16.525a8.249,8.249,0,0,1-4.758,3.754c-4.134,1.293-8.443-.664-9.6-4.368a6.638,6.638,0,0,1,.641-5.311,8.252,8.252,0,0,1,4.757-3.753,8.69,8.69,0,0,1,2.6-.4,7.987,7.987,0,0,1,3.453.773,6.507,6.507,0,0,1,2.913,9.308Z">
+                                        </path>
+                                        <path d="M286.97,247.466c4.259-18.537-.043-58.737-.234-60.483,0-.036-.008-.072-.013-.108-2.359-17.285-15.535-24.294-23.936-27.032-.911-3.541-1.9-6.948-2.97-10.186,13.559-5.868,20.41-19.7,22.377-28.511a4,4,0,0,0-5.547-4.518c-.069.032-7.674,2.786-24.414-4.7a50.953,50.953,0,0,0-11.058-3.531,4,4,0,1,0-1.525,7.854,42.864,42.864,0,0,1,9.316,2.98c10.553,4.721,18.248,5.918,23.341,5.918h.131c-3.48,8.166-12.278,21.781-31.658,18.905-9.412-1.393-15.631-5.36-18.548-11.788a32.471,32.471,0,0,0,9.19-22.633V85h22.246a12.115,12.115,0,0,0,12.1-12.1,13.234,13.234,0,0,0-13.218-13.218H135.838c1.813-2.981,4.121-6.558,6.678-9.988.489-.656.952-1.333,1.4-2.019h77.544c.183,1.125.358,2.279.519,3.482A4,4,0,1,0,229.91,50.1q-.508-3.822-1.178-7.2l-.009-.046C221.983,8.564,204.237,6.7,203.367,6.633c-8.235-.521-16.475,3.051-21.917,6.135a8.111,8.111,0,0,1-6.893.421,47.794,47.794,0,0,0-10.776-2.725,14.888,14.888,0,0,0-14.634,6.572c-3.4,5.3-6.175,12.66-7.9,17.9a35.014,35.014,0,0,1-5.143,9.979,148.874,148.874,0,0,0-9.545,14.769h-20.1A13.234,13.234,0,0,0,93.24,72.9a12.009,12.009,0,0,0,1.2,5.216c-6.247,1.961-12.24,6.328-15.216,11.532-16.006,27.986-27.082,63.643-32.26,82.406a22.386,22.386,0,0,0,13.213,26.728l27.667,11.155h0l11.839,4.774c-.011.625-.021,1.251-.021,1.88v16.242A69.3,69.3,0,0,0,84.413,244.75,21.49,21.49,0,0,0,78.4,259.1c-.354,11.384.791,32.164,12.437,43.426,5.255,5.082,11.967,7.648,19.979,7.648.317,0,.646-.023.967-.031,5.672,4.718,13.958,8.73,26.064,9.981a71.324,71.324,0,0,0-.048,9.553,4,4,0,0,0,3.988,3.742c.087,0,.175,0,.262-.009a4,4,0,0,0,3.733-4.25,77.508,77.508,0,0,1,2.934-24.939,86.222,86.222,0,0,0,3.009-27.66l-.159-2.969h57.519l-.021.806a85.255,85.255,0,0,0,1.183,16.291,16.7,16.7,0,0,0-2.941,2.126,16.89,16.89,0,0,0-5.54,12.494v11.273A16.855,16.855,0,0,0,218.6,333.418h6.662a32.755,32.755,0,0,0,17.288-4.939c26.817-16.652,42.085-40.782,48.8-53.683a22.224,22.224,0,0,0-.957-22.141C289.265,250.884,288.115,249.148,286.97,247.466ZM148.842,37.439c1.583-4.8,4.089-11.484,7.04-16.085a6.89,6.89,0,0,1,6.788-2.969,39.893,39.893,0,0,1,8.969,2.253,15.971,15.971,0,0,0,13.756-.91c6.359-3.6,12.575-5.417,17.4-5.116.127.011,11.2,1.643,17.045,25.062H148.031C148.318,38.939,148.593,38.2,148.842,37.439ZM278.789,187.9c.156,1.471,3.3,31.451,1.525,50.264-3.811-5.09-6.762-8.668-7.405-9.442-.826-1.226-1.688-2.461-2.57-3.7-.316-21.058-2.123-39.682-5.377-55.7C271.3,172.416,277.412,177.952,278.789,187.9Zm-14.453,42.475-3.245,2.653L245.469,245.8V218.84a59.111,59.111,0,0,0-1.8-14.141A306.273,306.273,0,0,1,264.336,230.376Zm-39.778-23.308A149.255,149.255,0,0,1,213.021,188.2a96.739,96.739,0,0,1-3.673-12.735h4.075A12.738,12.738,0,0,1,223.987,181c5.036,7.405,13.482,22.168,13.482,37.836v31.131c0,.188-.378,18.785-12.738,26.986a4,4,0,1,0,4.423,6.666c9.53-6.323,13.49-16.834,15.139-24.426l8.095,8.367c-3.6,9.829-14.483,20.569-19.073,24.8a35.773,35.773,0,0,0-13.093-3.819,16.428,16.428,0,0,0-2.228-.054,76.94,76.94,0,0,1-.933-13.886l.516-19.746a17.856,17.856,0,0,0,1.677-.882c8.924-5.382,13.626-14.2,13.6-25.5C232.829,219.827,228.407,212.492,224.558,207.068Zm15.05-55.106a43.375,43.375,0,0,0,6.346.481,36.878,36.878,0,0,0,6.185-.511c5.519,16.526,8.838,37.36,9.888,62.119-9.459-11.831-19.8-22.973-26.229-29.67a4.1,4.1,0,0,0-.636-.535c-1.517-2.678-3.069-5.148-4.559-7.34a20.73,20.73,0,0,0-17.18-9.046h-8.24l-.634-.169a6.171,6.171,0,0,1-4.532-5.308,115.208,115.208,0,0,1-.316-19.912,31.732,31.732,0,0,0,16.14-4.689C219.28,143.648,226.11,149.964,239.608,151.962Zm-55.3,42.05a4,4,0,0,0-4,4v5.741c-13.875-5.712-19.608-12.823-21.459-15.679l5.306-13.636a12.214,12.214,0,0,0,9.02-11.822v-8.441a35.984,35.984,0,0,0,18.236-5.316,127.331,127.331,0,0,0,.644,13.934,14.219,14.219,0,0,0,8.99,11.758,93.338,93.338,0,0,0,3.806,14.522,53.907,53.907,0,0,1-16.543,14.1v-5.156A4,4,0,0,0,184.311,194.012Zm-39.984-75.984V85h31.409c.189,9.46,4.114,23.774,18.547,30.451a4.486,4.486,0,0,1,2.687,4.014c.075,7.347-.88,13.268-2.622,16.32a28.16,28.16,0,0,1-50.021-17.757Zm79.1-8.4a24.485,24.485,0,0,1-19.8,24.044,58.178,58.178,0,0,0,1.352-14.288,12.422,12.422,0,0,0-7.328-11.194C185.767,102.7,183.909,90.914,183.765,85h39.657ZM106.458,67.681H252.551a5.224,5.224,0,0,1,5.218,5.218,4.106,4.106,0,0,1-4.1,4.1H135.706a4,4,0,0,0,0,8h.621v33.028a36.259,36.259,0,0,0,.449,5.676c-6.828,4.99-16.954,15.075-22.066,33.243a4,4,0,1,0,7.7,2.166c3.921-13.933,11.081-22.339,16.734-27.095a36.3,36.3,0,0,0,26.033,21.432v9.166a4.237,4.237,0,0,1-4.06,4.244H145.231a15.449,15.449,0,0,0-9.306,3.082l-36.672-2.473h-.018l-10.549-.711c4.543-24.83,12.168-51.8,14.644-60.3l6.72-.287A18.29,18.29,0,0,0,127.6,87.859,10.871,10.871,0,0,0,116.737,77h-11.4a4.105,4.105,0,0,1-4.1-4.1A5.224,5.224,0,0,1,106.458,67.681ZM86.681,200.842l-23.514-9.481a14.387,14.387,0,0,1-8.493-17.179c5.078-18.4,15.921-53.337,31.493-80.564C88.792,89.027,95.819,85,101.205,85h15.532a2.862,2.862,0,0,1,2.859,2.859,10.307,10.307,0,0,1-9.888,10.32l-9.577.41a4,4,0,0,0-3.658,2.838c-.111.367-11.133,37-16.444,68.354A4,4,0,0,0,83.7,174.44l10.1.681Zm7.468,3.011,7.809-28.183,28.133,1.9c-3.94,7.26-8.772,19.383-10.125,36.7ZM96.4,296.774c-9.784-9.461-10.254-29.325-10-37.427a13.517,13.517,0,0,1,3.76-9.027,62.814,62.814,0,0,1,9.507-8.043v46.968a4.18,4.18,0,0,0,.022.418,31.738,31.738,0,0,0,4.408,11.584A18.372,18.372,0,0,1,96.4,296.774Zm44.609,5.31a96.947,96.947,0,0,0-2.224,10.09c-11.192-1.135-18.383-4.874-23-9.043-.029-.027-.059-.053-.089-.079a25.037,25.037,0,0,1-8.036-14.063v-71.06l11.945,4.816c0,.365-.011.724-.011,1.093v39.231c0,.042,0,.084,0,.126.015.482.466,11.892,8.654,19.37a24.309,24.309,0,0,0,15.22,6.143A78.215,78.215,0,0,1,141.006,302.084ZM133.691,276.7c-5.494-4.979-6.059-13.092-6.095-13.718V223.838c0-24.064,7.11-38.88,11.347-45.57a7.383,7.383,0,0,1,6.288-3.408H155.41l-4.695,12.066,0,.005c-3.336,8.575-8.375,16.011-13.324,22.77-6.3,8.608-8.5,18.048-6.173,26.578a29.163,29.163,0,0,0,11.135,15.877c.338,5.827.884,15.385,1.385,24.828.066,1.242.094,2.482.1,3.721A16.544,16.544,0,0,1,133.691,276.7Zm75.6-11.108H151.127c-.19-3.416-.372-6.632-.532-9.427a18.725,18.725,0,0,0,3.994.436h54.939Zm.439-16.991H154.589a10.4,10.4,0,0,1-5.367-1.463,22.092,22.092,0,0,1-10.288-12.962c-2.254-8.272,2.108-15.923,4.909-19.748a126.434,126.434,0,0,0,11.382-17.988c4.44,4.993,12.816,11.847,27.819,16.859.091.031.186.045.279.069s.175.048.267.065a3.9,3.9,0,0,0,.619.062c.035,0,.067.011.1.011l.017,0a4.014,4.014,0,0,0,.741-.075c.079-.015.153-.041.23-.061.121-.031.244-.054.362-.1a61.558,61.558,0,0,0,23.019-16.234,172.249,172.249,0,0,0,9.354,14.663c3.362,4.736,6.8,10.435,6.817,16.8.021,8.453-3.251,14.719-9.728,18.625A10.437,10.437,0,0,1,209.732,248.6Zm74.523,22.5c-6.336,12.175-20.728,34.935-45.924,50.58a24.751,24.751,0,0,1-13.067,3.736H218.6a8.847,8.847,0,0,1-8.837-8.837V305.308a8.758,8.758,0,0,1,2.911-6.565,8.67,8.67,0,0,1,5.869-2.28q.443,0,.891.043A27.622,27.622,0,0,1,230.584,300a36.99,36.99,0,0,1,1.7,6.3,4,4,0,0,0,3.941,3.342,4.053,4.053,0,0,0,.663-.055,4,4,0,0,0,3.287-4.6,43.828,43.828,0,0,0-1.66-6.523c5.325-4.867,19-18.324,22.266-30.964a4,4,0,0,0-1-3.783l-10.411-10.764,13.117-10.727,6.647-5.434c3.262,4.106,9.2,11.841,14.508,20.171A14.2,14.2,0,0,1,284.255,271.1Z">
+                                        </path>
+                                        <circle cx="155.249" cy="101.655" r="4"></circle>
+                                        <circle cx="169.179" cy="101.655" r="4"></circle>
+                                    </svg>
+                                </div>
+                                <div class="text-white text-shadow">
+                                    <p>Todos nuestros guías locales de habla inglesa son apasionados de su país y lo acompañarán desde el momento en que llegue a su destino, durante todo su recorrido acompañado y hasta su vuelo de regreso a casa.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- suport -->
+                    <div class="col-md-6">
+                        <div class="position-relative">
+                            <div class="d-flex">
+                                <div class="svg-primary me-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" viewBox="0 0 50 50">
+                                        <path d="M7.90625 1.96875C7.863281 1.976563 7.820313 1.988281 7.78125 2C7.316406 2.105469 6.988281 2.523438 7 3L7 12L16 12C16.359375 12.003906 16.695313 11.816406 16.878906 11.503906C17.058594 11.191406 17.058594 10.808594 16.878906 10.496094C16.695313 10.183594 16.359375 9.996094 16 10L10.3125 10C14.101563 6.292969 19.277344 4 25 4C36.609375 4 46 13.390625 46 25C46 36.609375 36.609375 46 25 46C13.390625 46 4 36.609375 4 25C4 21.527344 4.855469 18.257813 6.34375 15.375L4.5625 14.46875C2.929688 17.625 2 21.207031 2 25C2 37.691406 12.308594 48 25 48C37.691406 48 48 37.691406 48 25C48 12.308594 37.691406 2 25 2C18.773438 2 13.140625 4.503906 9 8.53125L9 3C9.011719 2.710938 8.894531 2.433594 8.6875 2.238281C8.476563 2.039063 8.191406 1.941406 7.90625 1.96875 Z M 25 5C24.449219 5 24 5.449219 24 6C24 6.550781 24.449219 7 25 7C25.550781 7 26 6.550781 26 6C26 5.449219 25.550781 5 25 5 Z M 34.5 7.53125C33.949219 7.53125 33.5 7.980469 33.5 8.53125C33.5 9.082031 33.949219 9.53125 34.5 9.53125C35.050781 9.53125 35.5 9.082031 35.5 8.53125C35.5 7.980469 35.050781 7.53125 34.5 7.53125 Z M 41.46875 14.5C40.917969 14.5 40.46875 14.949219 40.46875 15.5C40.46875 16.050781 40.917969 16.5 41.46875 16.5C42.019531 16.5 42.46875 16.050781 42.46875 15.5C42.46875 14.949219 42.019531 14.5 41.46875 14.5 Z M 18.375 16.90625C15.601563 16.90625 13.625 18.714844 13.625 21.3125L13.625 21.34375L15.6875 21.34375L15.6875 21.3125C15.6875 19.808594 16.726563 18.8125 18.28125 18.8125C19.734375 18.8125 20.84375 19.773438 20.84375 21.0625C20.84375 22.097656 20.386719 22.847656 18.5 24.8125L13.75 29.75L13.75 31.34375L23.25 31.34375L23.25 29.375L16.78125 29.375L16.78125 29.21875L19.9375 26.03125C22.300781 23.640625 23 22.429688 23 20.9375C23 18.613281 21.050781 16.90625 18.375 16.90625 Z M 31.59375 17.25C29.082031 21.011719 26.980469 24.289063 25.71875 26.59375L25.71875 28.625L32.59375 28.625L32.59375 31.34375L34.6875 31.34375L34.6875 28.625L36.65625 28.625L36.65625 26.65625L34.6875 26.65625L34.6875 17.25 Z M 32.5 19.1875L32.625 19.1875L32.625 26.71875L27.8125 26.71875L27.8125 26.5625C29.472656 23.679688 31.105469 21.207031 32.5 19.1875 Z M 6 24C5.449219 24 5 24.449219 5 25C5 25.550781 5.449219 26 6 26C6.550781 26 7 25.550781 7 25C7 24.449219 6.550781 24 6 24 Z M 44 24C43.449219 24 43 24.449219 43 25C43 25.550781 43.449219 26 44 26C44.550781 26 45 25.550781 45 25C45 24.449219 44.550781 24 44 24 Z M 8.53125 33.5C7.980469 33.5 7.53125 33.949219 7.53125 34.5C7.53125 35.050781 7.980469 35.5 8.53125 35.5C9.082031 35.5 9.53125 35.050781 9.53125 34.5C9.53125 33.949219 9.082031 33.5 8.53125 33.5 Z M 41.46875 33.5C40.917969 33.5 40.46875 33.949219 40.46875 34.5C40.46875 35.050781 40.917969 35.5 41.46875 35.5C42.019531 35.5 42.46875 35.050781 42.46875 34.5C42.46875 33.949219 42.019531 33.5 41.46875 33.5 Z M 15.5 40.46875C14.949219 40.46875 14.5 40.917969 14.5 41.46875C14.5 42.019531 14.949219 42.46875 15.5 42.46875C16.050781 42.46875 16.5 42.019531 16.5 41.46875C16.5 40.917969 16.050781 40.46875 15.5 40.46875 Z M 34.5 40.46875C33.949219 40.46875 33.5 40.917969 33.5 41.46875C33.5 42.019531 33.949219 42.46875 34.5 42.46875C35.050781 42.46875 35.5 42.019531 35.5 41.46875C35.5 40.917969 35.050781 40.46875 34.5 40.46875 Z M 25 43C24.449219 43 24 43.449219 24 44C24 44.550781 24.449219 45 25 45C25.550781 45 26 44.550781 26 44C26 43.449219 25.550781 43 25 43Z"></path>
+                                    </svg>
+                                </div>
+                                <div class="text-white text-shadow">
+                                    <p>Su coordinador de viaje dedicado y personal está disponible las 24 horas del día durante su viaje para atender solicitudes, cuidar los detalles y manejar cualquier situación imprevista....
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- customize -->
+                    <div class="col-md-6">
+                        <div class="position-relative">
+                            <div class="d-flex">
+                                <div class="svg-primary me-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" version="1.1" id="Capa_1" viewBox="0 0 57 57" xml:space="preserve">
+                                        <g>
+                                            <path d="M52.699,45.02c-0.55-0.101-1.069,0.241-1.18,0.781C50.403,51.303,46.074,55,40.749,55c-5.028,0-9.446-3.3-10.948-8H34.5v-2   h-8v8h2v-3.849C30.669,53.833,35.415,57,40.749,57c6.304,0,11.42-4.341,12.731-10.801C53.59,45.657,53.24,45.13,52.699,45.02z"></path>
+                                            <path d="M52.5,37.309C50.25,32.854,45.796,30,40.749,30c-6.109,0-11.541,3.997-13.209,9.721c-0.154,0.53,0.15,1.085,0.681,1.239   c0.529,0.158,1.085-0.15,1.239-0.681C30.858,35.482,35.605,32,40.749,32c4.565,0,8.562,2.766,10.33,7H46.5v2h8v-8h-2V37.309z"></path>
+                                            <path d="M28.5,14h18c0.553,0,1-0.447,1-1s-0.447-1-1-1h-18c-0.553,0-1,0.447-1,1S27.947,14,28.5,14z"></path>
+                                            <path d="M28.5,28h18c0.553,0,1-0.447,1-1s-0.447-1-1-1h-18c-0.553,0-1,0.447-1,1S27.947,28,28.5,28z"></path>
+                                            <path d="M22.079,7.241c-0.418-0.358-1.05-0.313-1.409,0.108l-6.248,7.288L10.6,11.771c-0.441-0.331-1.068-0.243-1.399,0.2   c-0.332,0.441-0.242,1.068,0.2,1.399l4.571,3.429c0.179,0.135,0.39,0.2,0.599,0.2c0.283,0,0.563-0.119,0.76-0.35l6.857-8   C22.548,8.231,22.499,7.601,22.079,7.241z"></path>
+                                            <path d="M22.079,21.241c-0.418-0.359-1.05-0.312-1.409,0.108l-6.248,7.288L10.6,25.771c-0.441-0.331-1.068-0.243-1.399,0.2   c-0.332,0.441-0.242,1.068,0.2,1.399l4.571,3.429c0.179,0.135,0.39,0.2,0.599,0.2c0.283,0,0.563-0.119,0.76-0.35l6.857-8   C22.548,22.231,22.499,21.601,22.079,21.241z"></path>
+                                            <path d="M20.67,36.35l-6.248,7.287L10.6,40.771c-0.441-0.33-1.068-0.243-1.399,0.2c-0.332,0.441-0.242,1.068,0.2,1.399l4.571,3.429   c0.179,0.135,0.39,0.2,0.599,0.2c0.283,0,0.563-0.119,0.76-0.35l6.857-7.999c0.36-0.419,0.312-1.05-0.108-1.409   C21.661,35.883,21.029,35.929,20.67,36.35z"></path>
+                                            <path d="M43.324,0H13.676C6.962,0,1.5,5.462,1.5,12.176v29.648C1.5,48.538,6.962,54,13.676,54H22.5c0.553,0,1-0.447,1-1   s-0.447-1-1-1h-8.824C8.064,52,3.5,47.436,3.5,41.824V12.176C3.5,6.564,8.064,2,13.676,2h29.648C48.936,2,53.5,6.564,53.5,12.176   V27c0,0.553,0.447,1,1,1s1-0.447,1-1V12.176C55.5,5.462,50.038,0,43.324,0z"></path>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="text-white text-shadow">
+                                    <p>Descubra nuestro encantador mundo a su manera. Nuestros expertos personalizan completamente su recorrido privado para que coincida con sus intereses y preferencias a través de su conocimiento integral de cada destino.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- quality -->
+                    <div class="col-md-6">
+                        <div class="position-relative">
+                            <div class="d-flex">
+                                <div class="svg-primary me-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" version="1.1" id="Layer_1" viewBox="0 0 512.001 512.001" xml:space="preserve">
+                                        <g>
+                                            <g>
+                                                <path d="M486.509,420.091L380.924,314.505l42.706-15.543c3.641-1.325,5.805-5.073,5.131-8.889l-11.44-64.877l32.939-57.053    c1.937-3.355,1.186-7.617-1.782-10.107l-50.466-42.345l-11.44-64.878c-0.673-3.815-3.987-6.596-7.862-6.596h-65.88L262.367,1.868    c-2.969-2.491-7.296-2.491-10.265,0l-50.465,42.346h-65.879c-3.875,0-7.189,2.781-7.862,6.596l-11.44,64.877l-50.467,42.346    c-2.968,2.49-3.719,6.752-1.782,10.107l32.94,57.053l-11.44,64.877c-0.674,3.816,1.49,7.563,5.131,8.889l40.899,14.885    L25.492,420.091c-2.197,2.198-2.92,5.474-1.85,8.392c1.069,2.919,3.735,4.951,6.833,5.209l65.527,5.462l5.462,65.526    c0.258,3.098,2.29,5.764,5.209,6.833c0.896,0.329,1.824,0.488,2.745,0.488c2.081,0,4.123-0.814,5.647-2.338l140.936-140.936    l140.936,140.936c1.525,1.524,3.566,2.338,5.647,2.338c0.921,0,1.85-0.159,2.745-0.488c2.919-1.069,4.951-3.735,5.208-6.833    L416,439.155l65.526-5.462c3.098-0.258,5.764-2.29,6.833-5.21C489.429,425.564,488.706,422.29,486.509,420.091z M115.946,486.201    l-4.593-55.105c-0.324-3.885-3.406-6.969-7.293-7.293l-55.105-4.593l99.338-99.338l4.451,1.62l32.939,57.053    c1.46,2.529,4.13,3.993,6.916,3.993c0.91,0,1.832-0.156,2.729-0.482l38.927-14.168L115.946,486.201z M263.744,344.904    l-3.781-1.375c-1.763-0.643-3.697-0.643-5.46,0l-5.6,2.038l-52.741,19.195l-31.043-53.768c-0.939-1.625-2.419-2.868-4.183-3.511    l-11.96-4.354l-46.381-16.88l10.782-61.141c0.327-1.85-0.009-3.754-0.947-5.38l-31.044-53.768l47.562-39.908    c1.438-1.206,2.405-2.88,2.729-4.728l10.781-61.142h62.085c1.878,0,3.695-0.661,5.132-1.868l47.56-39.908l47.56,39.908    c1.438,1.207,3.255,1.868,5.132,1.868h62.086l10.781,61.142c0.326,1.848,1.292,3.523,2.729,4.728l47.561,39.908l-31.043,53.768    c-0.939,1.625-1.274,3.53-0.948,5.379l10.782,61.141l-48.188,17.539l-10.154,3.696c-1.763,0.643-3.245,1.885-4.183,3.511    l-31.042,53.768l-54.55-19.854C263.753,344.906,263.748,344.906,263.744,344.904z M407.942,423.804    c-3.885,0.324-6.969,3.406-7.293,7.293l-4.592,55.105L276.334,366.476l42.806,15.581c0.897,0.327,1.819,0.482,2.729,0.482    c2.786,0,5.456-1.464,6.916-3.993l32.938-57.053l2.644-0.962l98.68,98.68L407.942,423.804z"></path>
+                                            </g>
+                                        </g>
+                                        <g>
+                                            <g>
+                                                <path d="M256.002,68.521c-70.141,0-127.204,57.063-127.204,127.204s57.064,127.203,127.204,127.203    c70.141,0,127.203-57.063,127.203-127.203S326.142,68.521,256.002,68.521z M256.002,306.961    c-61.336,0-111.237-49.901-111.237-111.237S194.666,84.488,256.002,84.488c61.335,0,111.237,49.901,111.237,111.237    S317.337,306.961,256.002,306.961z"></path>
+                                            </g>
+                                        </g>
+                                        <g>
+                                            <g>
+                                                <path d="M347.882,170.302c-1.069-3.29-4.134-5.517-7.593-5.517h-58.922l-18.207-56.038c-1.069-3.29-4.134-5.517-7.593-5.517    c-3.458,0-6.524,2.227-7.593,5.517l-18.208,56.038h-58.922c-3.458,0-6.524,2.227-7.593,5.517    c-1.069,3.289,0.102,6.893,2.901,8.926l47.669,34.633l-18.208,56.039c-1.069,3.289,0.102,6.893,2.901,8.926    c1.399,1.017,3.045,1.525,4.692,1.525s3.293-0.509,4.692-1.525l47.669-34.632l47.668,34.632c2.798,2.033,6.587,2.033,9.384,0    c2.798-2.032,3.968-5.636,2.901-8.926l-18.208-56.039l47.669-34.633C347.78,177.195,348.95,173.591,347.882,170.302z     M283.235,204.354c-2.798,2.032-3.969,5.636-2.901,8.926l12.407,38.186l-32.483-23.599c-2.798-2.033-6.587-2.033-9.384,0    l-32.484,23.6l12.407-38.187c1.069-3.289-0.102-6.893-2.901-8.925l-32.482-23.601h40.153c3.458,0,6.524-2.227,7.593-5.517    l12.407-38.186l12.406,38.186c1.069,3.29,4.134,5.517,7.593,5.517h40.153L283.235,204.354z"></path>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="text-white text-shadow">
+                                    <p>Todos nuestros alojamientos y servicios son testados personalmente por
+                                      nuestro equipo. Cuéntanos tu
+                                      sueño de viajar y crearemos un itinerario repleto de lo mejor
+                                      experimenta tu
+                                      destino tiene para ofrecer.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="inca-trail-card__pricing">
-                  <span class="inca-trail-card__price">$2069</span>
-                  <span class="inca-trail-card__original-price">2,200$</span>
-                </div>
-                <p class="inca-trail-card__description">
-                  Descubre la vibrante cultura y rica historia de Cusco y el Valle
-                  Sagrado antes de aventurarte en el icónico Camino Inca hacia
-                  Machu Picchu. Camina por pasos de montaña y bosques nubosos,
-                  observa las estrellas en el Valle Sagrado y explora ruinas incas
-                  ocultas. ¡Una experiencia inolvidable te espera!
-                </p>
-                <button class="inca-trail-card__cta">Explora Ahora</button>
-              </div>
             </div>
-            <div class="inca-trail-card">
-              <img
-                class="inca-trail-card__image"
-                src="img/home.png"
-                alt="Inca Trail landscape"
-              />
-              <div class="inca-trail-card__info">
-                <div class="inca-trail-card__meta">
-                  <span class="inca-trail-card__duration">
-                    <i
-                      class="inca-trail-card__icon inca-trail-card__icon--calendar"
-                    ></i>
-                    9 Días
-                  </span>
-                  <span class="inca-trail-card__group-size">
-                    <i
-                      class="inca-trail-card__icon inca-trail-card__icon--people"
-                    ></i>
-                    25 Personas Por Grupo
-                  </span>
-                </div>
-                <h2 class="inca-trail-card__title">Classic Inca Trail</h2>
-                <div class="inca-trail-card__location">
-                  <i
-                    class="inca-trail-card__icon inca-trail-card__icon--location"
-                  ></i>
-                  Cusco
-                </div>
-                <div class="inca-trail-card__pricing">
-                  <span class="inca-trail-card__price">$2069</span>
-                  <span class="inca-trail-card__original-price">2,200$</span>
-                </div>
-                <p class="inca-trail-card__description">
-                  Descubre la vibrante cultura y rica historia de Cusco y el Valle
-                  Sagrado antes de aventurarte en el icónico Camino Inca hacia
-                  Machu Picchu. Camina por pasos de montaña y bosques nubosos,
-                  observa las estrellas en el Valle Sagrado y explora ruinas incas
-                  ocultas. ¡Una experiencia inolvidable te espera!
-                </p>
-                <button class="inca-trail-card__cta">Explora Ahora</button>
-              </div>
-            </div>
-          </div>
-        </section>
-  
-        <section class="destinos">
-          <h2 class="destinos__title">Destinos destacados</h2>
-          <div class="destinos__grid">
-          <a href="">  <div class="destinos__item">
-            <img
-              src="img/d-cusco-card.webp"
-              alt="Destino 1"
-              class="destinos__image"
-            />
-            <h3 class="destinos__item-title">Cusco</h3>
-            <p class="destinos__item-description">
-              Cuzco, antigua capital del poderoso Imperio Inca, zona cero de los
-              festivales andinos durante todo el año y hogar de una gran
-              variedad de los mejores hoteles y restaurantes del país, captura
-              brillantemente el pasado, el presente y el futuro del Perú.
-            </p>
-          </div></a>
-   <a href="">         <div class="destinos__item">
-    <img
-      src="img/d-amazon-rainforest-card.webp"
-      alt="Destino 2"
-      class="destinos__image"
-    />
-    <h3 class="destinos__item-title">Amazon</h3>
-    <p class="destinos__item-description">
-      Embárquese en un barco fluvial hasta un albergue en el Amazonas y
-      experimente la prístina selva tropical del sur de Perú. Camine por
-      senderos, aprenda a detectar bichos camuflados o suba a torres de
-      dosel para disfrutar de vistas panorámicas que lo dejarán sin
-      aliento
-    </p>
-  </div></a>
-           <a href="">
-            <div class="destinos__item">
-              <img
-                src="img/destino3.png"
-                alt="Destino 3"
-                class="destinos__image"
-              />
-              <h3 class="destinos__item-title">Paracas</h3>
-              <p class="destinos__item-description">
-                Vaya a Paracas para disfrutar de un clima cálido, paisajes
-                costeros y atardeceres sublimes. Explora el mundo marino de las
-                Islas Ballestas y descubre playas escondidas en la Reserva
-                Nacional de Paracas.
-              </p>
-            </div>
-           </a>
-          </div>
-        </section>
-      </main>
-  
-      <div class="contenedor contenido-principal"></div>
-      <!-- tours -->
-  
-      <footer class="footer">
-        <p class="footer__copyright">
-          &copy; 2024 Agencia de Turismo. Todos los derechos reservados.
+        </div>
+        </div>
+
+      </div>
+
+
+    </section>
+    
+ <!-- destinos -->
+ <section class="destinos contenedor py-2">
+  <h2 class="destinos__title">Destinos destacados</h2>
+  <div class="destinos__grid">
+    <a href="">
+      <div class="destinos__item">
+        <img src="img/d-cusco-card.webp" alt="Destino 1" class="destinos__image" />
+        <h3 class="destinos__item-title">Cusco</h3>
+        <p class="destinos__item-description">
+          Cuzco, antigua capital del poderoso Imperio Inca, zona cero de los
+          festivales andinos durante todo el año y hogar de una gran
+          variedad de los mejores hoteles y restaurantes del país, captura
+          brillantemente el pasado, el presente y el futuro del Perú.
         </p>
-      </footer>
-  
+      </div>
+    </a>
+    <a href="">
+      <div class="destinos__item">
+        <img src="img/d-amazon-rainforest-card.webp" alt="Destino 2" class="destinos__image" />
+        <h3 class="destinos__item-title">Amazon</h3>
+        <p class="destinos__item-description">
+          Embárquese en un barco fluvial hasta un albergue en el Amazonas y
+          experimente la prístina selva tropical del sur de Perú. Camine por
+          senderos, aprenda a detectar bichos camuflados o suba a torres de
+          dosel para disfrutar de vistas panorámicas que lo dejarán sin
+          aliento
+        </p>
+      </div>
+    </a>
+    <a href="">
+      <div class="destinos__item">
+        <img src="img/destino3.png" alt="Destino 3" class="destinos__image" />
+        <h3 class="destinos__item-title">Paracas</h3>
+        <p class="destinos__item-description">
+          Vaya a Paracas para disfrutar de un clima cálido, paisajes
+          costeros y atardeceres sublimes. Explora el mundo marino de las
+          Islas Ballestas y descubre playas escondidas en la Reserva
+          Nacional de Paracas.
+        </p>
+      </div>
+    </a>
+  </div>
+</section>
 
-    <script src="assets/js/app.js"></script>
-  </body>
+  </main>
+
+
+ 
+<!--footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__columns ">
+      <div class="footer__column">
+        <a href="" target="_blank"><h3 class="footer__title">Paquetes Tour</h3></a>
+        <ul class="footer__list">
+          <li class="footer__item"><a href="tour.html" class="footer__link">All Peru Tours</a></li>
+          <li class="footer__item"><a href="tour.html" class="footer__link">Machu Picchu Tours</a></li>
+          <li class="footer__item"><a href="tour.html" class="footer__link">Hiking & Trekking Tours</a></li>
+
+        </ul>
+      </div>
+  
+      <div class="footer__column">
+        <a href="http://" target="_blank" ><h3 class="footer__title">Destinos</h3></a>
+        <ul class="footer__list">
+          <li class="footer__item"><a href="#" class="footer__link">Guias</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer__column">
+      <a href="http://" target="_blank" >  <h3 class="footer__title">Sobre Nosotros</h3></a>
+        <ul class="footer__list">
+          <li class="footer__item"><a href="#" class="footer__link">Hoteles</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Reviews</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Terminos & Condiciones</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer__column">
+       <a href="http://" target="_blank"> <h3 class="footer__title">Blog</h3></a>
+        <p class="footer__text">Artículos de calidad escritos e investigados por nuestros expertos en viajes internos.
+        </p>
+      </div>
+    </div>
+  
+    <div class="footer__bottom">
+      <div class="footer__contact">
+        <h3 class="footer__title">Contactos</h3>
+        <p class="footer__text">Email: info@machupicchuforless.com</p>
+      </div>
+  
+      <div class="footer__newsletter">
+        <h3 class="footer__title">Suscríbase </h3>
+        <p class="footer__text">para recibir nuestro boletín informativo con excelentes artículos, fotografías impresionantes y ofertas especiales.</p>
+        <form class="footer__form">
+          <input type="email" placeholder="Enter your e-mail" class="footer__input">
+          <button type="submit" class="footer__submit">→</button>
+        </form>
+      </div>
+  
+      <div class="footer__phone">
+        <h3 class="footer__title footer__title--large">1-817-230-4971</h3>
+        <p class="footer__text">Soporte de ventas y viajes
+        </p>
+      </div>
+    </div>
+  
+    <div class="footer__copyright">
+      <p class="footer__text">© 2024 Peru for Less LLC. Todo los Derechos Reservados.</p>
+    </div>
+  </div>
+</footer>
+<!-- fin footer -->
+
+  <script src="assets/js/app.js"></script>
+</body>
+
 </html>
